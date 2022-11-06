@@ -47,7 +47,7 @@ header {
 }
 .text {
     width: 542px;
-    margin-top: 150px;
+    margin-top: 140px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -107,12 +107,10 @@ header {
 .download {
     justify-content: center;
     display: flex;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .ads {
     background-color: black;
-    /*height: 40px;*/
-    /*width: 135px;*/
     border-radius: 8px;
     color: white;
     display: flex;
@@ -126,5 +124,16 @@ header {
 }
 .store-size {
     font-size: 12px;
+}
+.line {
+    border: 2px solid #F5BD41;
+    width: 50px;
+    position: absolute;
+    content: '';
+    top: 60px;
+    left: 5px;
+}
+.pos-rel {
+    position: relative;
 }
 
