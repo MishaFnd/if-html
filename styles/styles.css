@@ -7,16 +7,16 @@ body {
     margin: 0;
 }
 .container {
-     max-width: 1232px;
-     margin: 0 auto;
- }
+    max-width: 1232px;
+    margin: 0 auto;
+}
 header {
-     background: url("../images/mainpicture.png");
-     background-repeat: no-repeat;
-     background-size: cover;
-     width: 100%;
-     height: 100vh;
- }
+    background: url("../images/mainpicture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
 .menu {
     display: flex;
     padding-top: 51px;
@@ -45,7 +45,7 @@ header {
     width: 40px;
     height: 40px;
 }
-.text {
+.motto {
     width: 542px;
     margin-top: 140px;
     font-family: 'Roboto';
