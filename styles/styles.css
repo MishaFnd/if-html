@@ -55,7 +55,7 @@ header {
     line-height: 59px;
     color: white;
 }
-.header_text {
+.input-name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -65,7 +65,7 @@ header {
     display: flex;
     margin-top: 100px;
 }
-.header_text p:first-child {
+.input-name p:first-child {
     margin-left: 24px;
     margin-right: 221px;
 }
@@ -123,14 +123,14 @@ header {
     display: flex;
     margin-top: 70px;
 }
-.button_item_apps {
+.button__item-apps {
     width: 120px;
     height: 40px;
     margin: 0 8px;
     background-image: url(../images/sprite.svg);
     background-position: -135px 0;
 }
-.button_item_gp {
+.button__item-gp {
     width: 135px;
     height: 40px;
     margin: 0 8px;
