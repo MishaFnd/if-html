@@ -14,7 +14,7 @@
       <div class="container">
         <div class="menu">
           <div>
-            <img src="./images/logo_vector.png" alt="logo" />
+            <img class="logo" src="./images/logo_vector.png" alt="logo" />
           </div>
           <div class="menu__items">
             <div class="menu__item pos-rel">
@@ -24,6 +24,7 @@
             <p class="menu__item">Attractions</p>
             <img class="menu__item" src="./images/Night.png" alt="day&night" />
             <img class="menu__item" src="./images/Account.png" alt="account" />
+            <img class="menu__item" src="images/menu.png" />
           </div>
         </div>
         <div class="motto">
@@ -39,6 +40,38 @@
           <input placeholder="Tue 15 Sept — Sat 19 Sept" />
           <input placeholder="2 Adults — 0 Children — 1 Room" />
           <input type="button" value="Search" />
+        </div>
+        <div class="input_block__mb">
+          <form action="POST">
+            <table>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="text"
+                    placeholder="Your destination or hotel name"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Check-in date</p>
+                  <input type="text" placeholder="Tue 15 Sept 2020" />
+                </td>
+                <td>
+                  <p>Check-out date</p>
+                  <input type="text" placeholder="Sat 19 Sept 2020" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">3</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button class="search__button">Search</button>
+                </td>
+              </tr>
+            </table>
+          </form>
         </div>
         <div class="button">
           <div class="button_item_gp"></div>

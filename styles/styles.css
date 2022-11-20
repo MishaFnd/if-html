@@ -1,139 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 .container {
-    max-width: 1232px;
-    margin: 0 auto;
+  max-width: 1232px;
+  margin: 0 auto;
 }
 header {
-    background: url("../images/mainpicture.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+  background: url("../images/mainpicture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 .menu {
-    display: flex;
-    padding-top: 51px;
-    justify-content: space-between;
+  display: flex;
+  padding-top: 51px;
+  justify-content: space-between;
 }
 .menu__items {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: white;
-    display: flex;
-    align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 .menu__item {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 .menu__item:nth-child(3) {
-    margin-left: 48px;
-    width: 30px;
-    height: 30px;
+  margin-left: 48px;
+  width: 30px;
+  height: 30px;
 }
 .menu__item:nth-child(4) {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .motto {
-    width: 542px;
-    margin-top: 140px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 59px;
-    color: white;
+  width: 542px;
+  margin-top: 140px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: white;
 }
 .header_text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: white;
-    display: flex;
-    margin-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  display: flex;
+  margin-top: 100px;
 }
 .header_text p:first-child {
-    margin-left: 24px;
-    margin-right: 221px;
+  margin-left: 24px;
+  margin-right: 221px;
 }
 .input_block {
-    display: flex;
-    width: 100%;
-    background-color: white;
-    border-radius: 8px;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
 }
 .input_block input {
-    border: none;
-    width: 25%;
-    padding: 22px 24px;
-    border-radius: 8px;
+  border: none;
+  width: 25%;
+  padding: 22px 24px;
+  border-radius: 8px;
 }
 .input_block input:nth-child(2) {
-    border: 3px solid #F5BD41;
-    width: 259px;
+  border: 3px solid #f5bd41;
+  width: 259px;
 }
 .input_block input[type="button"] {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: white;
-    background: #3077C6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  background: #3077c6;
 }
 .input_block input:nth-child(1) {
-    width: 467px;
+  width: 467px;
 }
 .input_block input:nth-child(3) {
-    width: 314px;
+  width: 314px;
 }
 .input_block input:nth-child(4) {
-    width: 192px;
+  width: 192px;
 }
 .pos-rel:hover .line {
-    border: 2px solid #F5BD41;
-    width: 50px;
-    position: absolute;
-    content: '';
-    top: 60px;
-    left: 5px;
+  border: 2px solid #f5bd41;
+  width: 50px;
+  position: absolute;
+  content: "";
+  top: 60px;
+  left: 5px;
 }
 .pos-rel {
-    position: relative;
+  position: relative;
 }
 .input_block input::placeholder {
-    font-size: 18px;
+  font-size: 18px;
 }
 .button {
-    justify-content: center;
-    display: flex;
-    margin-top: 70px;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
 }
 .button_item_apps {
-    width: 120px;
-    height: 40px;
-    margin: 0 8px;
-    background-image: url(../images/sprite.svg);
-    background-position: -135px 0;
+  width: 120px;
+  height: 40px;
+  margin: 0 8px;
+  background-image: url(../images/sprite.svg);
+  background-position: -135px 0;
 }
 .button_item_gp {
-    width: 135px;
-    height: 40px;
-    margin: 0 8px;
-    background-image: url(../images/sprite.svg);
-    background-position: 0 0;
+  width: 135px;
+  height: 40px;
+  margin: 0 8px;
+  background-image: url(../images/sprite.svg);
+  background-position: 0 0;
+}
+.input_block__mb {
+  display: none;
+}
+input {
+  border: 0;
+  width: 100%;
+}
+@media (max-width: 450px) {
+  .menu__item:nth-child(1),
+  .menu__item:nth-child(2) {
+    display: none;
+  }
+  .container {
+    padding: 0 17px;
+  }
+  .menu {
+    padding-top: 12px;
+  }
+  .logo {
+    width: 122px;
+    height: 24px;
+  }
+  .menu__item {
+    margin-left: 16px;
+    width: 24px;
+    height: 16px;
+  }
+  .menu__item:nth-child(3) {
+    width: 16px;
+    height: 16px;
+  }
+  .menu__item:nth-child(4) {
+    width: 24px;
+    height: 24px;
+  }
+  .menu__item:nth-child(5) {
+    width: 24px;
+    height: 16px;
+  }
+  .motto {
+    margin-top: 52px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .input_block,
+  .header_text {
+    display: none;
+  }
+  .input_block__mb {
+    display: block;
+    margin-top: 39px;
+  }
+  .button {
+    margin-top: 32px;
+  }
+  .input_block__mb table {
+    background-color: #f5bd41;
+    padding: 8px;
+    width: 100%;
+    color: #383838;
+  }
+  .input_block__mb table tr {
+    background-color: #fff;
+    padding-bottom: 8px;
+  }
+  .input_block__mb table td {
+    padding-left: 6px;
+  }
+  .input_block__mb table input:first-child {
+    padding: 15px 0 15px 30px;
+  }
+  .input_block__mb table p {
+    margin: 0;
+  }
+  .search__button {
+    width: 100%;
+    height: 48px;
+    left: 24px;
+    top: 365px;
+    background: #3077c6;
+    border-radius: 4px;
+  }
 }
