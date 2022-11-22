@@ -24,7 +24,7 @@
             <p class="menu__item">Attractions</p>
             <img class="menu__item" src="./images/Night.png" alt="day&night" />
             <img class="menu__item" src="./images/Account.png" alt="account" />
-            <img class="menu__item" src="images/menu.png" />
+            <img class="menu__item" src="images/menu.png" alt="Menu Button" />
           </div>
         </div>
         <div class="motto">
@@ -46,10 +46,13 @@
             <table>
               <tr>
                 <td colspan="2">
-                  <input
-                    type="text"
-                    placeholder="Your destination or hotel name"
-                  />
+                  <div class="fist__input-mb">
+                    <img src="images/searchbutton.svg" alt="Search_Button" />
+                    <input
+                      type="text"
+                      placeholder="Your destination or hotel name"
+                    />
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -63,10 +66,25 @@
                 </td>
               </tr>
               <tr>
-                <td colspan="2">3</td>
+                <td colspan="2">
+                  <div class="third__input-mb">
+                    <div class="third_input__el">
+                      <p>Adults</p>
+                      <input type="text" placeholder="2" />
+                    </div>
+                    <div class="third_input__el">
+                      <p>Children</p>
+                      <input type="text" placeholder="0" />
+                    </div>
+                    <div class="third_input__el">
+                      <p>Rooms</p>
+                      <input type="text" placeholder="1" />
+                    </div>
+                  </div>
+                </td>
               </tr>
               <tr>
-                <td colspan="2">
+                <td class="forth__input-mb" colspan="2">
                   <button class="search__button">Search</button>
                 </td>
               </tr>
