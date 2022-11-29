@@ -1,11 +1,103 @@
+@import url("./fonts.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+/*what do we offer style*/
+.header-block {
+  text-align: center;
+  color: #383838;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.line {
+  margin: 20px auto 0 auto;
+  background-color: #f5bd41;
+  height: 4px;
+  width: 100px;
+}
+
+.picture {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.text {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+}
+
+.icon-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-item {
+  display: block;
+  text-align: center;
+}
+
+/*footer style*/
+.footer-block {
+  padding: 120px 100px;
+}
+
+.footer-text-weight {
+  font-weight: 500;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #10367c;
+  color: #ffffff;
+}
+
+.copyright {
+  margin-top: 64px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-item p {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer-item a {
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
 .container {
   max-width: 1235px;
   margin: 0 auto 0 auto;
-}
-
-* {
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 .header-block {
@@ -45,4 +137,5 @@
 .icon-item {
   display: block;
   text-align: center;
+>>> >>> > main
 }
