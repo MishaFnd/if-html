@@ -1,4 +1,10 @@
-@import url('./fonts.css');
+@import url("./fonts.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
 
 body {
   margin: 0;
@@ -16,28 +22,28 @@ body {
 .footer-items {
   display: flex;
   justify-content: space-between;
-  font-family: 'Roboto';
 }
 
 footer {
-  background-color: #10367C;
-  color: #FFFFFF;
+  background-color: #10367c;
+  color: #ffffff;
 }
 
 .copyright {
   margin-top: 64px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
 }
 
 .footer-item p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
 }
 
+.footer-item a {
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
