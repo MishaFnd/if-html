@@ -18,12 +18,16 @@
           </div>
           <div class="menu__items">
             <div class="menu__item pos-rel">
-              <p>Stays</p>
+              <a href="#">Stays</a>
               <div class="line"></div>
             </div>
-            <p class="menu__item">Attractions</p>
-            <img class="menu__item" src="./images/Night.png" alt="day&night" />
-            <img class="menu__item" src="./images/Account.png" alt="account" />
+            <a href="#" class="menu__item">Attractions</a>
+            <button class="menu__item">
+              <img src="./images/Night.png" alt="day&night" />
+            </button>
+            <button class="menu__item">
+              <img src="./images/Account.png" alt="Account" />
+            </button>
           </div>
         </div>
         <div class="motto">
@@ -31,12 +35,12 @@
           to live, work or just relax
         </div>
         <div class="header_text">
-          <p>Your destination or hotel name</p>
-          <p>Check-in — Check-out</p>
+          <label for="destination">Your destination or hotel name</label>
+          <label for="check-in">Check-in — Check-out</label>
         </div>
         <div class="input_block">
-          <input placeholder="New York" />
-          <input placeholder="Tue 15 Sept — Sat 19 Sept" />
+          <input id="destination" placeholder="New York" />
+          <input id="check-in" placeholder="Tue 15 Sept — Sat 19 Sept" />
           <input placeholder="2 Adults — 0 Children — 1 Room" />
           <input type="button" value="Search" />
         </div>
