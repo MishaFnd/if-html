@@ -11,5 +11,13 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MishaFnd/if-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MishaFnd/if-html/issues"
+  },
+  "homepage": "https://github.com/MishaFnd/if-html#readme",
 }
