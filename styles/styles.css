@@ -114,7 +114,7 @@ header {
 
 .input_block input:nth-child(2) {
   border: 3px solid #f5bd41;
-  width: 257px;
+  width: 260px;
 }
 
 .input_block input[type="button"] {
@@ -128,7 +128,7 @@ header {
 }
 
 .input_block input:nth-child(1) {
-  width: 485px;
+  width: 467px;
 }
 
 .input_block input:nth-child(3) {
@@ -136,7 +136,7 @@ header {
 }
 
 .input_block input:nth-child(4) {
-  width: 216px;
+  width: 194px;
 }
 
 .pos-rel:hover .line {
