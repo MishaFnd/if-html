@@ -230,6 +230,7 @@ header {
 .footer-items {
   display: flex;
   justify-content: space-between;
+  margin-right: 223px;
 }
 
 footer {
