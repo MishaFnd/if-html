@@ -4,11 +4,11 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: white;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  box-sizing: border-box;
 }
 
 .container__header {
