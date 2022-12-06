@@ -3,7 +3,6 @@
 * {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: white;
   box-sizing: border-box;
 }
 
@@ -250,6 +249,7 @@ footer {
 
 .footer-item a {
   text-decoration: none;
+  color: white;
 }
 
 .footer-item a:hover {
