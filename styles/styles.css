@@ -219,7 +219,7 @@ header {
 
 /*footer style*/
 .footer-block {
-  padding: 120px 100px;
+  padding: 100px 100px;
 }
 
 .footer-text-weight {
@@ -229,7 +229,7 @@ header {
 .footer-items {
   display: flex;
   justify-content: space-between;
-  margin-right: 223px;
+  margin-right: 230px;
 }
 
 footer {
@@ -238,14 +238,14 @@ footer {
 }
 
 .copyright {
-  margin-top: 64px;
+  margin-top: 45px;
   font-size: 14px;
   line-height: 16px;
 }
 
 .footer-item p {
   font-size: 20px;
-  line-height: 23px;
+  line-height: 27px;
 }
 
 .footer-item a {
@@ -277,18 +277,18 @@ footer {
 .menu__items:nth-child(-n + 2) a:hover::before {
   position: absolute;
   content: "";
-  top: 30px;
+  top: 33px;
   left: 0;
   right: 0;
   background-color: #f5bd41;
-  height: 2px;
-  width: 80%;
+  height: 4px;
+  width: 85%;
   margin: 0 auto;
 }
 
 .picture {
   display: inline-block;
-  margin-top: 80px;
+  margin: 80px 0 24px 0;
 }
 
 .text {
@@ -302,6 +302,8 @@ footer {
 .icon-items {
   display: flex;
   justify-content: space-between;
+  max-width: 1105px;
+  margin: 0 auto
 }
 
 .icon-item {
