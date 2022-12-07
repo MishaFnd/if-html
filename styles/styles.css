@@ -162,6 +162,7 @@ header {
   background-image: url(../images/sprite.svg);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .button_item_apps {
