@@ -3,18 +3,178 @@
 * {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: white;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  box-sizing: border-box;
+}
+
+.container__header {
+  max-width: 1235px;
+  margin: 0 auto;
 }
 
 .container {
   max-width: 1235px;
   margin: 0 auto;
   padding: 120px 0;
+}
+
+/* header */
+header {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  padding-top: 51px;
+  justify-content: space-between;
+}
+
+.menu__items {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  margin-left: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.menu__items a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu__item:nth-child(3) {
+  margin-left: 38px;
+  width: 30px;
+  height: 30px;
+}
+
+.menu__item:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.motto {
+  width: 542px;
+  margin-top: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 118%;
+  color: white;
+  letter-spacing: 0.005em;
+}
+
+.header_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+
+.header_text label:first-child {
+  margin-left: 24px;
+  margin-right: 221px;
+}
+
+.input_block {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.input_block input {
+  border: none;
+  width: 25%;
+  padding: 18px 24px;
+  border-radius: 8px;
+}
+
+.input_block input:nth-child(2) {
+  border: 3px solid #f5bd41;
+  width: 260px;
+}
+
+.input_block input[type="button"] {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  background: #3077c6;
+}
+
+.input_block input:nth-child(1) {
+  width: 467px;
+}
+
+.input_block input:nth-child(3) {
+  width: 314px;
+}
+
+.input_block input:nth-child(4) {
+  width: 194px;
+}
+
+.pos-rel:hover .line {
+  border: 4px solid #f5bd41;
+  width: 50px;
+  position: absolute;
+  content: "";
+  top: 35px;
+  left: 5px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.input_block input::placeholder {
+  font-size: 18px;
+}
+
+.button {
+  justify-content: center;
+  display: flex;
+  margin-top: 120px;
+  background-image: url(../images/sprite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.button_item_apps {
+  width: 120px;
+  height: 40px;
+  margin: 0 8px;
+}
+
+.button_item_gp {
+  width: 135px;
+  height: 40px;
+  margin: 0 8px;
 }
 
 /*what do we offer style*/
@@ -28,7 +188,7 @@ body {
 }
 
 .line {
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0;
   background-color: #f5bd41;
   height: 4px;
   width: 100px;
@@ -59,7 +219,7 @@ body {
 
 /*footer style*/
 .footer-block {
-  padding: 120px 100px;
+  padding: 100px 100px;
 }
 
 .footer-text-weight {
@@ -69,6 +229,7 @@ body {
 .footer-items {
   display: flex;
   justify-content: space-between;
+  margin-right: 230px;
 }
 
 footer {
@@ -77,18 +238,19 @@ footer {
 }
 
 .copyright {
-  margin-top: 64px;
+  margin-top: 45px;
   font-size: 14px;
   line-height: 16px;
 }
 
 .footer-item p {
   font-size: 20px;
-  line-height: 23px;
+  line-height: 27px;
 }
 
 .footer-item a {
   text-decoration: none;
+  color: white;
 }
 
 .footer-item a:hover {
@@ -109,16 +271,25 @@ footer {
   line-height: 47px;
 }
 
-.line {
-  margin: 20px auto 0 auto;
+.menu__items:nth-child(-n + 2) a {
+  position: relative;
+}
+
+.menu__items:nth-child(-n + 2) a:hover::before {
+  position: absolute;
+  content: "";
+  top: 33px;
+  left: 0;
+  right: 0;
   background-color: #f5bd41;
   height: 4px;
-  width: 100px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .picture {
   display: inline-block;
-  margin-top: 80px;
+  margin: 80px 0 24px 0;
 }
 
 .text {
@@ -132,10 +303,11 @@ footer {
 .icon-items {
   display: flex;
   justify-content: space-between;
+  max-width: 1105px;
+  margin: 0 auto
 }
 
 .icon-item {
   display: block;
   text-align: center;
->>> >>> > main
 }
