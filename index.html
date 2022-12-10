@@ -7,44 +7,101 @@
     <meta name="author" content="Misha Salapayeu" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TripHouse</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="menu">
-          <div>
-            <img src="./images/logo_vector.png" alt="logo" />
-          </div>
-          <div class="menu__items">
-            <div class="menu__item pos-rel">
-              <p>Stays</p>
-              <div class="line"></div>
-            </div>
-            <p class="menu__item">Attractions</p>
-            <img class="menu__item" src="./images/Night.png" alt="day&night" />
-            <img class="menu__item" src="./images/Account.png" alt="account" />
-          </div>
+  <header>
+    <div class="container__header">
+      <div class="menu">
+        <div>
+          <img src="images/logo.png" alt="logo"/>
         </div>
-        <div class="motto">
-          Discover stays <br />
-          to live, work or just relax
-        </div>
-        <div class="input-name">
-          <p>Your destination or hotel name</p>
-          <p>Check-in — Check-out</p>
-        </div>
-        <div class="input_block">
-          <input placeholder="New York" />
-          <input placeholder="Tue 15 Sept — Sat 19 Sept" />
-          <input placeholder="2 Adults — 0 Children — 1 Room" />
-          <input type="button" value="Search" />
-        </div>
-        <div class="button">
-          <div class="button__item-gp"></div>
-          <div class="button__item-apps"></div>
+        <div class="menu__items">
+          <a href="#" class="menu__item pos-rel">Stays</a>
+          <a href="#" class="menu__item">Attractions</a>
+          <button class="menu__item">
+            <img src="images/night.png" alt="day&night"/>
+          </button>
+          <button class="menu__item">
+            <img src="images/account.png" alt="Account"/>
+          </button>
         </div>
       </div>
-    </header>
+      <div class="motto">
+        Discover stays <br/>
+        to live, work or just relax
+      </div>
+      <div class="header_text">
+        <label for="destination">Your destination or hotel name</label>
+        <label for="check-in">Check-in — Check-out</label>
+      </div>
+      <div class="input_block">
+        <input id="destination" placeholder="New York"/>
+        <input id="check-in" placeholder="Tue 15 Sept—Sat 19 Sept"/>
+        <input placeholder="2 Adults — 0 Children — 1 Room"/>
+        <input type="button" value="Search"/>
+      </div>
+      <a class="button">
+        <img class="button_item_gp" src="./images/googlePlay.svg" alt="GooglePlay">
+        <img class="button_item_apps" src="./images/appStore.svg" alt="AppStore">
+      </a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="header-block">What do we offer</div>
+    <div class="line"></div>
+    <div class="icon-items">
+      <div class="icon-item">
+        <img class="picture" src="images/headsetMicOutlined.png" alt="Support 24/7"/>
+        <p class="text">Support 24/7</p>
+      </div>
+      <div class="icon-item">
+        <img class="picture" src="images/forumOutlined.png" alt="Communicate directly"/>
+        <p class="text">Communicate directly</p>
+      </div>
+      <div class="icon-item">
+        <img class="picture" src="images/devicesOutlined.png" alt="Book online"/>
+        <p class="text">Book online</p>
+      </div>
+      <div class="icon-item">
+        <img class="picture" src="images/thumbUpAltOutlined.png" alt="Real guest views"/>
+        <p class="text">Real guest reviews</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-block">
+    <div class="footer-items">
+      <div class="footer-item">
+        <p>
+          <span class="footer-text-weight"><a href="#">About</a> </span>
+        </p>
+        <p><a href="#">How Triphouse works</a></p>
+        <p><a href="#">Careers</a></p>
+        <p><a href="#">Privacy</a></p>
+        <p><a href="#">Terms</a></p>
+      </div>
+      <div class="footer-item">
+        <p>
+        <span class="footer-text-weight">
+          <a href="#">Property types</a>
+        </span>
+        </p>
+        <p><a href="#">Guest houses</a></p>
+        <p><a href="#">Hotels</a></p>
+        <p><a href="#">Apartments</a></p>
+        <p><a href="#">Villas</a></p>
+        <p><a href="#">Holiday homes</a></p>
+        <p><a href="#">Hostels</a></p>
+      </div>
+      <div class="footer-item">
+        <p>
+          <span class="footer-text-weight"><a href="#">Support</a> </span>
+        </p>
+        <p><a href="#">Contact Customer service</a></p>
+        <p><a href="#">FAQ</a></p>
+      </div>
+    </div>
+    <div class="copyright">© 2022Triphouse, Inc. All rights reserved</div>
+  </footer>
   </body>
 </html>
