@@ -70,6 +70,7 @@ body {
 
   .guest-loves__items {
     padding-bottom: 40px;
+    position: relative;
   }
 
   .guest-loves__image {
@@ -95,10 +96,14 @@ body {
     background: transparent;
     cursor: pointer;
     position: absolute;
+    content: '';
+    left: 305px;
+    top: 60px;
+  }
+
+  .guest-loves__button img {
     width: 28px;
     height: 28px;
-    left: 350px;
-    top: 160px;
   }
 }
 
