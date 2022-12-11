@@ -1,9 +1,11 @@
+@import url("./fonts.css");
+
 body {
   margin: 0;
 }
 
 .guest-loves {
-  background: url("../images/Hgl_background.svg");
+  background: url("../images/guestlovesBackground.svg");
   width: 100%;
 }
 
@@ -45,38 +47,58 @@ body {
   color: #BFBFBF;
 }
 
+.guest-loves__button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  left: 1305px;
+  top: 400px;
+}
+
 @media (max-width: 450px) {
   .container {
     max-width:328px;
   }
 
-  .banner h2 {
+  .guest-loves__title h2 {
     padding: 40px 0 32px 0;
     font-weight: 500;
     font-size: 28px;
     line-height: 33px;
   }
 
-  .hgl__items {
+  .guest-loves__items {
     padding-bottom: 40px;
   }
 
-  .hgl__item img {
+  .guest-loves__image {
     width: 156px;
     height: 155px;
   }
 
-  .hgl__item:nth-child(3), .hgl__item:nth-child(4) {
+  .guest-loves__item:nth-child(3), .guest-loves__item:nth-child(4) {
     display: none;
   }
 
-  .hgl__item p {
+  .guest-loves__item p {
     font-size: 12px;
     line-height: 14px;
   }
 
-  .hgl__item:nth-child(1) p {
+  .guest-loves__item:nth-child(1) p {
     margin: 8px 0 4px 0;
+  }
+
+  .guest-loves__button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 350px;
+    top: 160px;
   }
 }
 
