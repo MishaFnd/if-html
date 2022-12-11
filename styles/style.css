@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.hgl__page {
+.guest-loves {
   background: url("../images/Hgl_background.svg");
   width: 100%;
 }
@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.banner h2 {
+.guest-loves__title h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
@@ -21,19 +21,19 @@ body {
   margin: 0;
 }
 
-.hgl__block {
+.guest-loves__content {
   padding-bottom: 120px;
 }
 
-.hgl__items {
+.guest-loves__items {
   display: flex;
 }
 
-.hgl__item {
+.guest-loves__item {
   margin-right: 16px;
 }
 
-.hgl__item p {
+.guest-loves__item p {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -41,7 +41,7 @@ body {
   color: #3077C6;
 }
 
-.hgl__item .hgl__location {
+.guest-loves__item .guest-loves__text {
   color: #BFBFBF;
 }
 
