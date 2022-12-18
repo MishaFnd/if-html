@@ -22,13 +22,14 @@ body {
 .top {
   max-width: 1235px;
   margin: 0 auto;
+  padding-bottom: 1px ;
 }
 
 /* header */
 header {
   background: url("../images/background.jpg") no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 
 }
@@ -96,6 +97,10 @@ header {
   margin-bottom: 24px;
 }
 
+.top__text label:nth-child(1) {
+  margin: 0 200px 0 27px;
+}
+
 .top__input {
   display: flex;
   width: 100%;
@@ -108,6 +113,7 @@ header {
   width: 25%;
   padding: 18px 24px;
   border-radius: 8px;
+  outline: none;
 }
 
 .top__input input:nth-child(2) {
@@ -157,8 +163,7 @@ header {
 .top__button {
   justify-content: center;
   display: flex;
-  margin-top: 115px;
-  margin-left: 470px;
+  margin: 115px auto 119px 470px;
   cursor: pointer;
   border: none;
   background: transparent;
