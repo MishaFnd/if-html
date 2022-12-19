@@ -10,26 +10,31 @@ body {
   margin: 0;
 }
 
-.container__header {
-  max-width: 1235px;
-  margin: 0 auto;
+.trip-title {
+  text-align: center;
+  color: #383838;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
 }
 
-.container {
+.top {
   max-width: 1235px;
   margin: 0 auto;
-  padding: 120px 0;
+  padding-bottom: 1px ;
 }
 
 /* header */
 header {
-  background: url("../images/background.png") no-repeat;
+  background: url("../images/background.jpg") no-repeat;
   background-size: cover;
+  min-height: 100vh;
   width: 100%;
-  height: 100vh;
+
 }
 
-.menu {
+.top__items {
   display: flex;
   padding-top: 51px;
   justify-content: space-between;
@@ -70,7 +75,7 @@ header {
   margin-right: 10px;
 }
 
-.motto {
+.top__title {
   width: 542px;
   margin-top: 200px;
   font-style: normal;
@@ -81,7 +86,7 @@ header {
   letter-spacing: 0.005em;
 }
 
-.header_text {
+.top__text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -92,31 +97,31 @@ header {
   margin-bottom: 24px;
 }
 
-.header_text label:first-child {
-  margin-left: 24px;
-  margin-right: 221px;
+.top__text label:nth-child(1) {
+  margin: 0 200px 0 27px;
 }
 
-.input_block {
+.top__input {
   display: flex;
   width: 100%;
   background-color: white;
   border-radius: 8px;
 }
 
-.input_block input {
+.top__input input {
   border: none;
   width: 25%;
   padding: 18px 24px;
   border-radius: 8px;
+  outline: none;
 }
 
-.input_block input:nth-child(2) {
+.top__input input:nth-child(2) {
   border: 3px solid #f5bd41;
   width: 260px;
 }
 
-.input_block input[type="button"] {
+.top__input input[type="button"] {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -126,15 +131,15 @@ header {
   background: #3077c6;
 }
 
-.input_block input:nth-child(1) {
+.top__input input:nth-child(1) {
   width: 467px;
 }
 
-.input_block input:nth-child(3) {
+.top__input input:nth-child(3) {
   width: 314px;
 }
 
-.input_block input:nth-child(4) {
+.top__input input:nth-child(4) {
   width: 194px;
 }
 
@@ -155,51 +160,63 @@ header {
   font-size: 18px;
 }
 
-.button {
+.top__button {
   justify-content: center;
   display: flex;
-  margin-top: 120px;
-  background-image: url(../images/sprite.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 115px auto 119px 470px;
   cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
-.button_item_apps {
+.top__button_apps {
   width: 120px;
   height: 40px;
   margin: 0 8px;
 }
 
-.button_item_gp {
+.top__button_gp {
   width: 135px;
   height: 40px;
   margin: 0 8px;
 }
 
 /*what do we offer style*/
-.header-block {
-  text-align: center;
-  color: #383838;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
+.offers {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 120px 0;
 }
 
-.line {
-  margin: 20px auto 0;
+.trip-title--line {
+  position: relative;
+}
+
+.trip-title--line::after {
+  position: absolute;
+  content: "";
+  top: 65px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   background-color: #f5bd41;
   height: 4px;
   width: 100px;
 }
 
-.picture {
+/*.line {*/
+/*  margin: 20px auto 0;*/
+/*  background-color: #f5bd41;*/
+/*  height: 4px;*/
+/*  width: 100px;*/
+/*}*/
+
+.offers__image {
   display: inline-block;
   margin-top: 80px;
 }
 
-.text {
+.offers__text {
   font-style: normal;
   font-size: 24px;
   line-height: 28px;
@@ -207,26 +224,27 @@ header {
   color: #383838;
 }
 
-.icon-items {
+.offers__items {
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
-.icon-item {
+.offer__item {
   display: block;
   text-align: center;
 }
 
 /*footer style*/
-.footer-block {
+.footer {
   padding: 100px 100px;
 }
 
-.footer-text-weight {
+.footer__text {
   font-weight: 500;
 }
 
-.footer-items {
+.footer__items {
   display: flex;
   justify-content: space-between;
   margin-right: 230px;
@@ -243,32 +261,18 @@ footer {
   line-height: 16px;
 }
 
-.footer-item p {
+.footer__item p {
   font-size: 20px;
   line-height: 27px;
 }
 
-.footer-item a {
+.footer__item a {
   text-decoration: none;
   color: white;
 }
 
-.footer-item a:hover {
+.footer__item a:hover {
   text-decoration: underline;
-}
-
-.container {
-  max-width: 1235px;
-  margin: 0 auto 0 auto;
-}
-
-.header-block {
-  text-align: center;
-  color: #383838;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
 }
 
 .menu__items:nth-child(-n + 2) a {
