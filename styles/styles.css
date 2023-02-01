@@ -77,6 +77,8 @@ footer {
         line-height: 14px;
     }
 }
+
+
 .container {
     max-width: 1235px;
     margin: 0 auto 0 auto;
@@ -111,11 +113,11 @@ footer {
 }
 .icon-items {
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 .icon-item {
-    display: block;
     text-align: center;
+    width: 25%;
 }
 @media (max-width: 450px) {
   .header-block {
@@ -126,6 +128,7 @@ footer {
   }
   .icon-items {
       display: block;
+      justify-content: center;
   }
   .picture {
       margin-top: 40px;
