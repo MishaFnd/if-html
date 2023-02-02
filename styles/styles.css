@@ -44,7 +44,6 @@ footer {
     .footer__block-pc {
         display: none;
     }
-
     .footer__block-mb {
         display: block;
         width: 219px;
@@ -77,8 +76,6 @@ footer {
         line-height: 14px;
     }
 }
-
-
 .container {
     max-width: 1235px;
     margin: 0 auto 0 auto;
@@ -113,11 +110,14 @@ footer {
 }
 .icon-items {
     display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
 }
 .icon-item {
     text-align: center;
-    width: 25%;
+    margin: 0 auto;
 }
 @media (max-width: 450px) {
   .header-block {
@@ -129,6 +129,7 @@ footer {
   .icon-items {
       display: block;
       justify-content: center;
+      margin: 0 25px;
   }
   .picture {
       margin-top: 40px;
