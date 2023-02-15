@@ -1,138 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Roboto;
 }
+
 body {
-    margin: 0;
+  margin: 0;
 }
+
 .footer__block-pc {
-    padding: 120px 100px;
-    display: block;
+  padding: 120px 100px;
+  display: block;
 }
+
 .footer-text-weight {
-    font-weight: 500;
+  font-weight: 500;
 }
+
 .footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #10367C;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.copyright-pc {
+  margin-top: 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer-item:nth-child(2) {
+  margin: 0 10px;
+}
+
+.footer__block-mb {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .footer__block-pc {
+    display: none;
+  }
+
+  .footer__block-mb {
+    display: block;
+    width: 219px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer__items {
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto';
-}
-footer {
-    background-color: #10367C;
-    width: 100%;
-    color: #FFFFFF;
-}
-.copyright-pc {
-    margin-top: 64px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-}
-.footer-item p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-}
-.footer__block-mb {
-    display: none;
-}
-@media (max-width:450px) {
-    .footer__block-pc {
-        display: none;
-    }
-    .footer__block-mb {
-        display: block;
-        width: 219px;
-        margin: 0 auto;
-        padding: 40px 0;
-        text-align: center;
-    }
+    margin: 40px 0 32px 0;
+  }
 
-    .footer__items {
-        display: flex;
-        justify-content: space-between;
-        margin: 40px 0 32px 0;
-    }
-
-    .footer__items a {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 18px;
-        color: white;
-    }
-
-    .copyright-mb {
-        color: white;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-    }
-}
-.container {
-    max-width: 1235px;
-    margin: 0 auto 0 auto;
-}
-.header-block {
-    text-align: center;
-    color: #383838;
+  .footer__items a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-}
-.line {
-    margin: 20px auto 0 auto;
-    background-color: #F5BD41;
-    height: 4px;
-    width: 100px;
-}
-.picture {
-    display: inline-block;
-    margin-top: 80px;
-}
-.text {
-    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+  }
+
+  .copyright-mb {
+    color: white;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #383838;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
+
+.container {
+  max-width: 1235px;
+  margin: 0 auto 0 auto;
+}
+
+.header-block {
+  text-align: center;
+  color: #383838;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.line::after {
+  position: absolute;
+  content: "";
+  margin: 20px auto;
+  left: 0;
+  right: 0;
+  background-color: #F5BD41;
+  height: 4px;
+  width: 100px;
+}
+
+.picture {
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+
+}
+
 .icon-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
 }
+
 .icon-item {
-    text-align: center;
-    margin: 0 auto;
+  position: relative;
+  height: 170px;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
 }
+
 @media (max-width: 450px) {
   .header-block {
-      padding: 24px 0;
+    padding: 24px 0;
   }
+
   .line {
-      display: none;
+    display: none;
   }
+
   .icon-items {
-      display: block;
-      justify-content: center;
-      margin: 0 25px;
-  }
-  .picture {
-      margin-top: 40px;
+    display: block;
+    justify-content: center;
+    margin: 0 25px;
   }
 }
 
